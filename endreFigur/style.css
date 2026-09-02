@@ -1,0 +1,28 @@
+#bokser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#boks1,
+#boks2,
+#boks3 {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bokser img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#boks1,
+#boks3 {
+    cursor: pointer;
+}
